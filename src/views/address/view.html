@@ -1,0 +1,12 @@
+<html>
+<head></head>
+<body>
+<h1> Following are the titles of given websites: </h1>
+<ul>
+    <% addressesDetail.forEach(function(address , index) { %>
+<li> <%= address.hostname %> - "<%= address.value %>" </li>
+
+<% }); %>
+</ul>
+</body>
+</html>
